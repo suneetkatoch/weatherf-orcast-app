@@ -1,6 +1,6 @@
 const express=require("express");
 const app=express();
-port=process.env.PORT || 8000;//when we are hosting then 1st part will used
+const port=process.env.PORT || 8000;//when we are hosting then 1st part will used
 const path=require("path");
 const hbs=require("hbs");
 
